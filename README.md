@@ -54,7 +54,6 @@ If you prefer running the application manually, follow these steps:
    Navigate to the **server** folder:  
 
    ```bash
-   cd server
    npm install
    npm start
    ```
@@ -64,7 +63,6 @@ If you prefer running the application manually, follow these steps:
    Navigate to the **client** folder:  
 
    ```bash
-   cd client
    npm install
    npm start
    ```
