@@ -11,7 +11,7 @@ A simple one-page application that displays the Balance Sheet Report from Xero. 
 
 You can run the application using **Docker** or **manual setup**.  
 
-### 🚀 Running with Docker  
+### Running with Docker  
 
 1. Clone the repository:  
 
@@ -32,7 +32,7 @@ You can run the application using **Docker** or **manual setup**.
 
 ---
 
-### 🛠️ Running Without Docker  
+### Running Without Docker  
 
 If you prefer running the application manually, follow these steps:  
 
@@ -75,7 +75,7 @@ If you prefer running the application manually, follow these steps:
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ### ✅ Running Tests for the Backend or Frontend
 
@@ -92,7 +92,7 @@ To test coverage:
 
 ---
 
-### 📌 Notes  
+### Notes  
 
 - Ensure that **Node.js** and **npm** are installed if running the app without Docker.  
 - The backend fetches data from `http://localhost:3000/api.xro/2.0/Reports/BalanceSheet`. Ensure that the **mock API** is running on port **3000** before starting the backend.  
@@ -100,7 +100,7 @@ To test coverage:
 
 ---
 
-### 🏗️ Tech Stack  
+### Tech Stack  
 
 - **Frontend**: React, TypeScript, TailwindCSS  
 - **Backend**: Express.js, Axios  
