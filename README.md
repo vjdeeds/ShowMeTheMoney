@@ -77,7 +77,7 @@ If you prefer running the application manually, follow these steps:
 
 ## Running Tests
 
-### ✅ Running Tests for the Backend or Frontend
+### Running Tests for the Backend or Frontend
 
 Navigate to the `server` or `client` directory and execute:
 
