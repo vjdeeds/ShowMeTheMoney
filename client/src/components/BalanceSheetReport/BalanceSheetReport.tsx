@@ -8,7 +8,7 @@ const BalanceSheetReport = () => {
 
   useEffect(() => {
     axios
-      .get("http://server:4000/api/balance-sheet")
+      .get("http://localhost:4000/api/balance-sheet")
       .then((response) => {
         setData(response.data.Reports[0]);
       })

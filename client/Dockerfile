@@ -3,7 +3,6 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-RUN npm run build
-RUN npm install -g serve
 EXPOSE 3006
-CMD ["serve", "-s", "build", "-l", "3006"]
+ENV PORT 3006
+CMD ["npm", "start"]

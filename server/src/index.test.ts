@@ -17,7 +17,6 @@ describe("Balance Sheet API", () => {
     };
     mockedAxios.get.mockResolvedValueOnce({ data: mockData });
 
-    // Call API and check response
     const response = await request(app).get("/api/balance-sheet");
 
     expect(response.status).toBe(200);
